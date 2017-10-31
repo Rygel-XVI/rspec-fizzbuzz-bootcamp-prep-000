@@ -2,11 +2,11 @@ def fizzbuzz(x)
   three = !!x/3
   five = !!x/5
   if three && five
-    puts "fizzbuzz"
+    return "FizzBuzz"
   elseif three
-    puts "fizz"
+    return "Fizz"
   elseif five
-    puts "buzz"
+    return "Buzz"
   else return nil
   end
 end
