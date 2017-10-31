@@ -2,6 +2,7 @@ def fizzbuzz(x)
   x.to_i
   three = (x/3 == Fixnum)
   five = (x/5 == Fixnum)
+  puts "three #{three} five #{five}"
   if three && five
     return "FizzBuzz"
   elseif three
