@@ -1,5 +1,5 @@
 def fizzbuzz(x)
-  x.to_i   
+  x.to_i
   three = (x/3 == Fixnum)
   five = (x/5 == Fixnum)
   if three && five
