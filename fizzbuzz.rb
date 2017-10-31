@@ -1,5 +1,6 @@
 def fizzbuzz(x)
   x.to_i
+  puts x.class    
   three = !!x/3
   five = !!x/5
   if three && five
