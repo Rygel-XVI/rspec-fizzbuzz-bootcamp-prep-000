@@ -1,8 +1,7 @@
 def fizzbuzz(x)
-  x.to_i
-  puts x.class    
-  three = !!x/3
-  five = !!x/5
+  x.to_i   
+  three = (x/3 == Fixnum)
+  five = (x/5 == Fixnum)
   if three && five
     return "FizzBuzz"
   elseif three
