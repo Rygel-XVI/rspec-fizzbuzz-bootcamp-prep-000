@@ -5,9 +5,9 @@ def fizzbuzz(x)
   puts "three #{three} five #{five}"
   if (three && five)
     return "FizzBuzz"
-  elseif (three)
+  elsif (three)
     return "Fizz"
-  elseif (five)
+  elsif (five)
     return "Buzz"
   else return nil
   end
